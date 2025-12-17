@@ -1,12 +1,12 @@
 public class Student {
     private int id;
     private String name;
-    private int grade; // Stores the grade for the current course
+    private int grade;
 
     public Student(int id, String name) {
         this.id = id;
         this.name = name;
-        this.grade = -1; // -1 indicates no grade assigned yet
+        this.grade = -1;
     }
 
     public int getId() { return id; }
